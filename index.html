@@ -120,8 +120,7 @@ code a { color: var(--str); text-decoration: underline; text-underline-offset: 3
 <div class="wrap">
   <header>
     <h1><span class="b">catalog</span><span class="y">.py</span></h1>
-    <p class="sub">Каталог программ для Windows 10. Раскрывай папки слева и выбирай программу: справа она описана как словарь Python.</p>
-    <p class="note"># <b>примеры</b>: список ниже можно заменить своими программами в файле, блок CATALOG</p>
+    <p class="sub">Каталог программ для Windows.</p>
   </header>
 
   <div class="app">
@@ -151,22 +150,22 @@ code a { color: var(--str); text-decoration: underline; text-underline-offset: 3
 (function () {
   // Замени этот список своими программами. Папка: name и items. Программа: name, desc, price ("free" или "paid"), url.
   var CATALOG = [
-    { name: "оформление", items: [
+    { name: "Оформление", items: [
       { name: "Rainmeter", desc: "Виджеты на рабочий стол: загрузка процессора, память, сеть, часы. Вид задаётся скинами.", price: "free", url: "https://www.rainmeter.net" },
       { name: "TranslucentTB", desc: "Делает панель задач Windows прозрачной или размытой.", price: "free", url: "https://github.com/TranslucentTB/TranslucentTB" },
       { name: "Open-Shell", desc: "Настраиваемое меню «Пуск» в классическом и тёмном стиле.", price: "free", url: "https://open-shell.github.io/Open-Shell-Menu/" },
       { name: "Wallpaper Engine", desc: "Живые обои, в том числе падающий код и киберпанк-сцены.", price: "paid", url: "https://store.steampowered.com/app/431960/Wallpaper_Engine/" }
     ]},
-    { name: "терминал", items: [
+    { name: "Терминал", items: [
       { name: "Windows Terminal", desc: "Современный терминал Microsoft: вкладки, прозрачность, цветовые схемы.", price: "free", url: "https://github.com/microsoft/terminal" },
       { name: "Oh My Posh", desc: "Красивое приглашение командной строки с иконками и информацией о Git.", price: "free", url: "https://ohmyposh.dev" }
     ]},
-    { name: "разработка", items: [
+    { name: "Разработка", items: [
       { name: "Python", desc: "Язык программирования для сайтов, автоматизации и анализа данных.", price: "free", url: "https://www.python.org" },
       { name: "Git", desc: "Система контроля версий. Нужна, чтобы работать с GitHub из командной строки.", price: "free", url: "https://git-scm.com" },
       { name: "Visual Studio Code", desc: "Бесплатный редактор кода с подсветкой синтаксиса и расширениями.", price: "free", url: "https://code.visualstudio.com" }
     ]},
-    { name: "утилиты", items: [
+    { name: "Утилиты", items: [
       { name: "7-Zip", desc: "Архиватор: открывает и создаёт ZIP, 7z, RAR и другие архивы.", price: "free", url: "https://www.7-zip.org" },
       { name: "Notepad++", desc: "Лёгкий редактор текста и кода с вкладками и поиском по файлам.", price: "free", url: "https://notepad-plus-plus.org" },
       { name: "Winaero Tweaker", desc: "Тонкая настройка внешнего вида и поведения Windows без ручной правки реестра.", price: "free", url: "https://winaero.com/winaero-tweaker/" }
